@@ -4,13 +4,13 @@
 
 To run this application, clone this repository and run the following commands:
 
--   `cd /client && npm install`
--   `npm start`
--   `cd /server && npm install`
+-   Navigate to the client directory and run `npm install`
+-   To start the front-end application run `npm start` from the client directory
+-   Navigate to the server directory and run `npm install`
 -   I will provide the .env and key.json files separately.
 -   Place the .env file in the server directory and the admin.json file in /server/keys/
--   Make sure you have nodemon installed globally `npm install -g nodemon`
--   `cd /server && npm start`
+-   Please make sure to have `nodemon` installed globally by running `npm install -g nodemon`
+-   To start the back-end application run `npm start` from the server directory
 
 # Overview:
 
@@ -45,7 +45,7 @@ The config module plays a crucial role in maintaining and organizing the environ
 
 # Future improvements to this application would be:
 
--   Refactoring the code to use TypeScript (I was unable to resolve a known issue (https://github.com/chakra-ui/chakra-ui/issues/3714) between Chakra UI and TypeScript 5.0).
+-   Refactor the codebase to use TypeScript and take advantage of its static typing and improved code maintainability. (I was unable to quickly resolve a known issue (https://github.com/chakra-ui/chakra-ui/issues/3714) between Chakra UI and TypeScript 5.0).
 -   Refactoring to use React's useContext hook for better state management to avoid prop drilling.
 -   Filtering and sorting methods for to-do items.
 -   Drag and drop sorting
