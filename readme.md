@@ -7,7 +7,7 @@ To run this application, clone this repository and run the following commands:
 1.  Navigate to the client directory and run `npm install` to install dependencies
 2.  From the client directory run `npm start` to start the front-end application
 3.  Navigate to the server directory and run `npm install`
-4.  Place the .env file in the server directory and the admin.json file in /server/keys/ (these files are not included in the repository and will be provided separately)
+4.  Place the `.env` file in the server directory and the `admin.json` file in `/server/keys/` [^1]
 5.  Please make sure to have `nodemon` installed globally by running `npm list -g nodemon`. If it's not installed run `npm install -g nodemon`
 6.  From the server directory run `npm start` to start the back-end application
 
@@ -44,7 +44,10 @@ The back-end exposes RESTful API endpoints for CRUD operations. These endpoints 
 
 ## Future improvements to this application:
 
--   Refactor the codebase to use TypeScript and take advantage of its static typing and better code maintainability. (I was unable to quickly resolve a known issue (https://github.com/chakra-ui/chakra-ui/issues/3714) between Chakra UI, VSCode 1.74.3 and TypeScript 5.0)
+-   Refactor the codebase to use TypeScript and take advantage of its static typing and better code maintainability.[^2]
 -   Refactor to use React's useContext hook for simpler state management and to avoid prop drilling
 -   Add filtering and sorting methods for to-do items
 -   Add drag and drop sorting and persistent ordering
+
+[^1]: `.env` and `admin.json` files are not included in the repository and will be provided to you separately
+[^2]: I was unable to quickly resolve a known issue [#3714](https://github.com/chakra-ui/chakra-ui/issues/3714) between Chakra UI, VSCode 1.74.3 and TypeScript 5.0
