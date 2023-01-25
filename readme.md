@@ -4,13 +4,13 @@
 
 To run this application, clone this repository and run the following commands:
 
--   cd /client && npm install
--   npm start
--   cd /server && npm install
+-   `cd /client && npm install`
+-   `npm start`
+-   `cd /server && npm install`
 -   I will provide the .env and key.json files separately.
 -   Place the .env file in the server directory and the admin.json file in /server/keys/
 -   Make sure you have nodemon installed globally `npm install -g nodemon`
--   cd /server && npm start
+-   `cd /server && npm start`
 
 # Overview:
 
